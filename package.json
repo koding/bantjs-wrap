@@ -1,0 +1,32 @@
+{
+  "name": "bant-wrap",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bantjs/wrap.git"
+  },
+  "keywords": [
+    "bantjs",
+    "bant"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bantjs/wrap/issues"
+  },
+  "homepage": "https://github.com/bantjs/wrap",
+  "devDependencies": {
+    "concat-stream": "^1.4.7",
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "defined": "0.0.0",
+    "readable-stream": "^1.0.33",
+    "xtend": "^4.0.0"
+  }
+}
